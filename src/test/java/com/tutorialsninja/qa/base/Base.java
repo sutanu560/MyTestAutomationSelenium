@@ -45,8 +45,6 @@ public class Base {
 //		}catch(Throwable e) {
 //			e.printStackTrace();
 //		}
-		
-		
 			FileInputStream fis;
 			try {
 				fis = new FileInputStream(propFile);

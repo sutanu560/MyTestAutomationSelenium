@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tutorialsninga.qa.testcase.CameraWishlistTest">
+      <class name="com.tutorialsninga.qa.testcase.PracticeTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="addTocartFuvtionalty"/>
-          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="test1"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.tutorialsninga.qa.testcase.CameraWishlistTest -->
+      </class> <!-- com.tutorialsninga.qa.testcase.PracticeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
